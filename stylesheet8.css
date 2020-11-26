@@ -1,0 +1,73 @@
+body{
+  margin:0;
+  width:100%;
+  font-family:;
+}
+.container{
+}
+.header{
+  width:100%;
+  height:110px;
+  color:white;
+  background-color:#99cc00;
+  margin:0px;
+}
+.header-logo{
+ font-weight:bold;
+ font-size:46px;
+ padding-left:15px;
+ padding-top:25px;
+ float:left;
+ text-shadow:#339933 3px 3px 3px;
+}
+.header-list{
+  font-weight:bold;
+  padding-right:15px;
+  padding-top:15px;
+  float:right;
+  text-shadow:#339933 3px 3px 3px;
+}
+.top-wrapper{
+margin:0px 15px;
+background-image:url("https://vps15-d.kuku.lu/files/20201125-2302_c6a596c2737bbe1f95800d0e1836d128.jpg");
+background-size:cover;
+text-align:center;
+color:white;
+height:700px;
+}
+.top-wrapper h1{
+font-weight:bold;
+font-size:40px;
+padding-top:60px;
+text-shadow:darkgray 5px 5px 5px;
+}
+.top-wrapper p{
+ font-weight:bold;
+ font-size:28px;
+ text-shadow:darkgray 5px 5px 5px;
+}
+
+.heading{
+text-align:center;
+}
+
+.box{
+display:flex;
+justify-content:space-around;
+list-style:none;
+}
+.box1{
+background-color:#ffff99;
+width:400px;
+}
+.box2{
+background-color:#ffff99;
+width:400px;
+}
+
+footer{
+background-color:#99cc00;
+height:100px;
+width:100%;
+color:white;
+}
