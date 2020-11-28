@@ -1,3 +1,9 @@
+
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+    location.href = '/index0.html';
+}
+
+
 window.onload = function(){
   setInterval(function(){
     var dd = new Date();
@@ -12,6 +18,9 @@ $(document).ready(function(){
   });
 
 
+ 
+  
+  
   $(".header-list").click(function(){
        $(".header-list").html("<b>ikite2021@gmail.com</b>");
 
