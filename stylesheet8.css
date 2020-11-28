@@ -3,7 +3,13 @@ body{
   width:100%;
   font-family:;
 }
+
+ a{
+ color:black;
+   }
 .container{
+ max-width:1200px;
+ width:100%;
 }
 .header{
   width:100%;
@@ -11,6 +17,7 @@ body{
   color:white;
   background-color:#99cc00;
   margin:0px;
+  
 }
 .header-logo{
  font-weight:bold;
@@ -20,6 +27,11 @@ body{
  float:left;
  text-shadow:#339933 3px 3px 3px;
 }
+#teck{
+  font-size:24px;
+}
+
+
 .header-list{
   font-weight:bold;
   padding-right:15px;
@@ -28,23 +40,24 @@ body{
   text-shadow:#339933 3px 3px 3px;
 }
 .top-wrapper{
-margin:0px 15px;
-background-image:url("https://github.com/hiro-eng/ikite/blob/main/cropMAEDA3G20921006.jpg?raw=true");
+margin:0px 0px;
+background-image:url("https://vps15-d.kuku.lu/files/20201125-2302_c6a596c2737bbe1f95800d0e1836d128.jpg");
 background-size:cover;
 text-align:center;
 color:white;
 height:700px;
+width:100%;
 }
 .top-wrapper h1{
 font-weight:bold;
 font-size:40px;
-padding-top:60px;
-text-shadow:darkgray 5px 5px 5px;
+padding-top:130px;
+text-shadow:black 2px 2px 2px;
 }
 .top-wrapper p{
  font-weight:bold;
  font-size:28px;
- text-shadow:darkgray 5px 5px 5px;
+ text-shadow:black 2px 2px 2px;
 }
 
 .heading{
@@ -52,22 +65,62 @@ text-align:center;
 }
 
 .box{
-display:flex;
-justify-content:space-around;
+
 list-style:none;
 }
 .box1{
-background-color:#ffff99;
-width:400px;
+
+width:800px;
+padding:10px;
+margin:10px auto;
 }
 .box2{
-background-color:#ffff99;
-width:400px;
+width:800px;
+padding:10px;
+margin:10px auto;
+}
+.sns-wrapper{
+text-align:center;
+}
+#btn1{
+  font-weight:bold;
+  font-size:22px;
+  margin:20px auto;
+  text-align:center;
+  
+}
+#btn2{
+  font-weight:bold;
+  font-size:22px;
+  margin:10px auto;
+  text-align:center;
+  
 }
 
+#T1{
+  text-align:right;
+  margin-right:15px;
+  font-weight:bold;
+  color:green;
+}
 footer{
 background-color:#99cc00;
 height:100px;
 width:100%;
 color:white;
+}
+.footer-logo{
+font-weight:bold;
+font-size:34px;
+float:left;
+padding-left:15px;
+padding-top:15px;
+text-shadow:#339933 3px 3px 3px;
+}
+.footer-right{
+font-weight:bold;
+float:right;
+padding-top:15px;
+padding-right:15px;
+text-shadow:#339933 3px 3px 3px;
 }
