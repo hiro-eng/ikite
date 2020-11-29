@@ -47,4 +47,9 @@ $("#btn2").hover(
   $("#btn2").text("twitter窓口はこちら");
 });
 
+    $("#T1").click(function(){
+        $("#T1").text("ゆっくり、ゆっくり、、、");
+    });
+    
+    
 })
