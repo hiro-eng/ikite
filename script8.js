@@ -12,8 +12,8 @@ window.onload = function(){
 }
 
 $(document).ready(function(){
-  $("#T1").hover(function(){
-    $("#T1").html("<i>ゆっくり過ごそう、ゆっくりね</i>").css("color","green");
+  //$("#T1").hover(function(){
+    //$("#T1").html("<i>ゆっくり過ごそう、ゆっくりね</i>").css("color","green");
 
   });
 
