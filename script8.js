@@ -35,9 +35,9 @@ $(document).ready(function(){
 
 $("#btn1").hover(
   function(){
- $("#btn1").text("CLICK!");
+ $("#btn1").text("準備中");
 },function(){
-  $("#btn1").text("facebook窓口はこちら");
+  $("#btn1").text("LINE窓口はこちら");
 });
 
 $("#btn2").hover(
