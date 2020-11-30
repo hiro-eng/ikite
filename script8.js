@@ -35,7 +35,7 @@ $(document).ready(function(){
 
 $("#btn1").hover(
   function(){
- $("#btn1").text("準備中");
+ $("#btn1").text("CLICK!");
 },function(){
   $("#btn1").text("LINE窓口はこちら");
 });
