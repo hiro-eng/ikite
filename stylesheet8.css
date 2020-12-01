@@ -29,7 +29,7 @@ body{
   width:100%;
   height:110px;
   color:white;
-  background-color:#66cc66;
+  background-color:#339933;
   margin:0px;
 }
 
@@ -147,6 +147,7 @@ padding-top:15px;
 text-shadow:#339933 3px 3px 3px;
 }
 .footer-right{
+ font-size:large;
 font-weight:bold;
 float:right;
 padding-top:15px;
