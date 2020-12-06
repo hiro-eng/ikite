@@ -21,6 +21,9 @@ body{
     0%{opacity: 0}
     100%{opacity:1}
 }
+a:hover{
+  color:darkgreen;
+}
 
  a{
  text-decoration:none;
