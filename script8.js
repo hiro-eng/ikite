@@ -44,7 +44,7 @@ $("#btn2").hover(
   function(){
  $("#btn2").text("CLICK!");
 },function(){
-  $("#btn2").text("twitter窓口はこちら");
+  $("#btn2").text("「いのちの相談窓口」twitterはこちら");
 });
 
     $("#T1").click(function(){
